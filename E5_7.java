@@ -10,11 +10,12 @@ public class E5_7 {
         int n2= in.nextInt();
         System.out.println("Please enter the third number:");
         int n3= in.nextInt();
+        //now we want to compare the three numbers that the user is entered and so on
         if(n1>=n2){
             if(n2>=n3){
                 System.out.println("in order");
             }
-        }
+        }        
         else if(n1<=n2){
             if(n2<=n3){
                 System.out.println("in order");
